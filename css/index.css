@@ -1,0 +1,66 @@
+
+body
+{
+  background-color: white;
+}
+
+@media (min-width:12em) and (orientation: portrait) {
+
+}
+.box1, .box2
+{
+  height:5em;
+  width:5em;
+  background-color: red;
+  float:left;
+  position:relative;
+
+}
+
+.text1, .text2
+{
+  background-color: gray;
+}
+
+h1
+{
+  font-size: 3em
+}
+#right
+{
+  position: relative;
+  float: right;
+  width:50%;
+}
+
+#left
+{
+  position: relative;
+  float: left;
+  width:50%;
+}
+
+.title
+{
+  text-align: center;
+}
+
+.container
+{
+  margin-left:2em;
+}
+
+.biggerImage
+{
+  height:50%;
+  width: 100%;
+}
+}
+@media (min-width:12em) and (orientation: landscape)
+{
+  .biggerImage
+  {
+    height:100%;
+    width: 50%;
+  }
+}
